@@ -14,3 +14,7 @@ a:hover {
   text-decoration-style: double;
   text-decoration: black;
 }
+
+* {
+  box-sizing: border-box;
+}
