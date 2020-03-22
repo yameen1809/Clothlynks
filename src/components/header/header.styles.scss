@@ -27,5 +27,10 @@
       padding: 10px 15px;
       cursor: pointer;
     }
+
+    .option:hover {
+      color: rgb(255, 183, 0);
+      font-weight: bold;
+    }
   }
 }
