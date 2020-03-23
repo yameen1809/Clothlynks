@@ -19,8 +19,9 @@
   &:hover {
     background-color: white;
     color: rgb(255, 183, 0);
-    border: 1px solid rgb(255, 183, 0);
+    border: 3px dashed rgb(255, 183, 0);
     font-weight: bolder;
+    padding: 0 35px 0 35px;
   }
 
   &.google-sign-in {
@@ -30,7 +31,7 @@
     &:hover {
       background-color: white;
       color: #205dbe;
-      border: 1px solid #205dbe;
+      border: 3px dashed #205dbe;
       font-weight: bolder;
     }
   }
@@ -45,7 +46,8 @@
   &.inverted:hover {
     background-color: white;
     color: rgb(255, 183, 0);
-    border: 1px solid rgb(255, 183, 0);
+    border: 3px dashed rgb(255, 183, 0);
     font-weight: bolder;
+    font-size: 15px;
   }
 }

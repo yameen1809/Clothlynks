@@ -6,13 +6,15 @@
   margin-bottom: 25px;
 
   .logo-container {
-    height: 50%;
-    width: 70px;
+    height: 100%;
+    width: 80px;
 
     .logo {
-      height: 80px;
-      width: 90px;
-      margin-bottom: 100px;
+      position: relative;
+      bottom: 100px;
+      right: 120px;
+      height: 300px;
+      width: 300px;
     }
   }
 

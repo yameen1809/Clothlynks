@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="E-Clothing"
+      name="Clothlynks"
       billingAddress
       shippingAddress
       image="https://www.svgrepo.com/show/122129/clothes-hanging-on-rope-for-drying.svg"
