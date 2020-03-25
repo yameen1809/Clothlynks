@@ -10,14 +10,14 @@ const INITIAL_STATE = {
     {
       title: "jackets",
       imageUrl:
-        "https://ae01.alicdn.com/kf/HTB1RQ8NLXXXXXXAapXXq6xXFXXXx/2016-2017-Latest-Hot-Selling-USA-justin-bieber-fear-of-god-hoodies-pullovers-hiphop-Fashion-Casual.jpg",
+        "https://ae01.alicdn.com/kf/HTB1RQ8NLXXXXXXAapXXq6xXFXXXx/2016-2017-Latest-H…-USA-justin-bieber-fear-of-god-hoodies-pullovers-hiphop-Fashion-Casual.jpg",
       id: 2,
       linkUrl: "shop/jackets"
     },
     {
       title: "sneakers",
       imageUrl:
-        "https://ae01.alicdn.com/kf/HTB1aCEGBcyYBuNkSnfoq6AWgVXaZ/UBFEN-Hot-selling-fashion-Casual-Shoes-For-Men-comfortable-shoes-autumn-winter-warm-black-yellow-casual.jpg",
+        "https://ae01.alicdn.com/kf/HTB1aCEGBcyYBuNkSnfoq6AWgVXaZ/UBFEN-Hot-selling-…Shoes-For-Men-comfortable-shoes-autumn-winter-warm-black-yellow-casual.jpg",
       id: 3,
       linkUrl: "shop/sneakers"
     },
