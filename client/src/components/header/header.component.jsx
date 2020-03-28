@@ -24,10 +24,10 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
         className="logo"
         style={{
           position: "relative",
-          height: "320px",
-          width: "320px",
-          right: "135px",
-          bottom: "130px"
+          height: "250px",
+          width: "250px",
+          right: "100px",
+          bottom: "110px"
         }}
       />
     </LogoContainer>

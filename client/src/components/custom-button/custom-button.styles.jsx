@@ -47,6 +47,21 @@ const googleSignInStyles = css`
     color: #357ae8;
     border: 3px dashed #357ae8;
   }
+
+  @media screen and (max-width: 413px) and (min-width: 375px) {
+    width: 290px;
+    font: 13px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+  }
+
+  @media screen and (max-width: 420px) and (min-width: 414px) {
+    flex-direction: column;
+    width: 180px;
+    font-size: 13px;
+    margin-right: 30px;
+  }
 `;
 
 const getButtonStyles = props => {

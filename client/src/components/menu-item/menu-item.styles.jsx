@@ -32,6 +32,10 @@ export const MenuItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+
+  @media screen and (max-width: 800px) {
+    height: 200px;
+  }
 `;
 
 export const BackgroundImageContainer = styled.div`
@@ -50,7 +54,7 @@ export const ContentContainer = styled.div`
   align-items: center;
   justify-content: center;
   background-color: white;
-  border: 2px solid grey;
+  border: 2px solid rgb(255, 183, 0);
   opacity: 0.7;
   position: absolute;
   transition: 0.3s;
@@ -58,7 +62,7 @@ export const ContentContainer = styled.div`
   &:hover {
     background-color: white;
     color: rgb(255, 183, 0);
-    border: 5px dotted rgb(255, 183, 0);
+    border: 5px dashed rgb(255, 183, 0);
     font-weight: bolder;
   }
 `;

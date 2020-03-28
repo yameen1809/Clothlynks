@@ -7,10 +7,12 @@ export const CheckoutPageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px auto 0;
-
   button {
     margin-left: auto;
     margin-top: 50px;
+  }
+  @media screen and (max-width: 800px) {
+    width: 90%;
   }
 `;
 
@@ -25,11 +27,15 @@ export const CheckoutHeaderContainer = styled.div`
 export const HeaderBlockContainer = styled.div`
   text-transform: capitalize;
   width: 23%;
-  font-weight: bold;
-  font-size: 20px;
-
+  font-weight: bolder;
   &:last-child {
     width: 8%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 22%
+    &:last-child {
+      width: 12%;
+    }
   }
 `;
 
@@ -42,14 +48,10 @@ export const TotalContainer = styled.div`
 export const WarningContainer = styled.div`
   text-align: center;
   margin-top: 40px;
-  font-size: 24px;
-  color: rgb(255, 183, 0);
+  background-color: rgb(255, 183, 0);
+  color: white;
+  font-size: 20px;
   font-weight: bold;
-
-  &:hover {
-    border-radius: 5px;
-    padding: 5px;
-    background-color: rgb(255, 183, 0);
-    color: white;
-  }
+  border: 1px solid rgb(255, 183, 0);
+  border-radius: 5px;
 `;

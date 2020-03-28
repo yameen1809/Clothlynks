@@ -16,6 +16,12 @@ export const ShoppingIcon = styled(ShoppingIconSVG)`
   width: 40px;
   height: 40px;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 800px) {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
 `;
 
 export const ItemCountContainer = styled.span`
@@ -24,4 +30,9 @@ export const ItemCountContainer = styled.span`
   font-weight: bold;
   bottom: 12px;
   color: white;
+
+  @media screen and (max-width: 800px) {
+    font-size: 15px;
+    bottom: 12px;
+  }
 `;
